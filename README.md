@@ -77,3 +77,110 @@ Feature: Pepperfry Furniture Search and Bench Validation
     And I take a screenshot of the results
     And I log the total count of filtered benches in console
 ```
+
+
+## 🚀 Git Setup Commands (Pepperfry Automation Project)
+
+### 🔹 Initialize Git Repository
+```bash
+git init
+# Creates a new Git repository in your project folder
+# Starts tracking your project with Git
+```
+
+### 🔹 Add Files to Staging Area
+```bash
+git add .
+# Adds all files and folders to the staging area
+# Prepares files for commit
+```
+
+### 🔹 Commit Changes
+```bash
+git commit -m "Initial commit - Pepperfry Automation Project"
+# Saves the staged files as a snapshot
+# "Initial commit" indicates the first version of the project
+```
+
+### 🔹 Connect to GitHub Repository
+```bash
+git remote add origin https://github.com/your-username/repo-name.git
+# Links your local repository to a remote GitHub repository
+# "origin" is the default name for the remote
+```
+
+### 🔹 Set Main Branch
+```bash
+git branch -M main
+# Renames the current branch to "main"
+# -M forces the rename if the branch already exists
+```
+
+### 🔹 Push Code to GitHub
+```bash
+git push -u origin main
+# Uploads your code to GitHub repository
+# Sets upstream so future pushes can be done with just "git push"
+```
+
+### ✅ Quick Summary
+```
+Initialize → Add → Commit → Connect → Set Branch → Push
+```
+
+## 🔄 Update Code to GitHub (After Modifications)
+
+### 🔹 Check Changes (Optional but Recommended)
+```bash
+git status
+# Shows which files are modified, added, or deleted
+# Helps you understand what changes are pending
+```
+
+---
+
+### 🔹 Add Updated Files to Staging
+```bash
+git add .
+# Adds all modified/new files to staging area
+
+# OR (specific file matrame add cheyali ante)
+git add filename.ext
+# Adds only a specific file
+```
+
+---
+
+### 🔹 Commit Updated Changes
+```bash
+git commit -m "Updated functionality / bug fix / new changes"
+# Saves the updated changes with a meaningful message
+# Example: "Added login automation", "Fixed navigation issue"
+```
+
+---
+
+### 🔹 Push Changes to GitHub
+```bash
+git push
+# Uploads the latest committed changes to GitHub
+# (No need to mention origin main again because already set with -u)
+```
+
+---
+
+### ✅ Quick Update Flow
+```
+Check → Add → Commit → Push
+```
+
+---
+
+### 💡 Example Workflow
+```bash
+git add .
+git commit -m "Updated filters functionality in benches page"
+git push
+```
+
+
